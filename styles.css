@@ -1,0 +1,6 @@
+@import url("https://one8ui.netlify.app/css/components.css");
+@import url("/doc_style/reset.css");
+@import url("/pages/productList/productlist.css");
+@import url("/pages/authentication/auth.css");
+@import url("/pages/cart_management/cart.css");
+@import url("/pages/wishlist/wishlist.css");

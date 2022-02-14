@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b84d0d614d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/doc_style/navbar.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Wishlist</title>
+  </head>
+  <body>
+    <div>
+      <!--Navigation-->
+      <nav class="navbar flex-row">
+        <a href="">
+          <h1 class="nav-heading">
+            one8<small class="nav-heading-small">Store</small>
+          </h1>
+        </a>
+        <div class="nav-search flex-row">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" class="nav-input" placeholder="Type to search" />
+        </div>
+
+        <div>
+          <a href=""><i class="fas fa-heart icon-md nav-icon"></i></a>
+          <a href=""><i class="fas fa-shopping-cart icon-md nav-icon"></i></a>
+        </div>
+      </nav>
+
+      <!--Main-->
+
+      <main class="main">
+        <h2 class="cart-heading">My cart</h2>
+        <div class="cart flex-row">
+            <!--Horizontal card-->
+          <div class="cart-horizontal flex-row">
+                <div class="cart-image">
+                <img src="/asset/image/cart.jpeg" alt="sneaker" class="image"/>
+                </div>
+                <div class="cart-content flex-col">
+                <p class="bigger-cart-text">
+                    <strong>PUMA Basket classic one8 sneakers</strong>
+                </p>
+                <p class="item-price">
+                    <strong
+                    >Rs. 1399
+                    <span class="deleted-price"><del>Rs. 2000</del></span></strong
+                    >
+                </p>
+                <span class="discount">40% off</span>
+                <section class="product-count flex-row">
+                    <p>
+                    Quantity: <i class="fas fa-minus-circle"></i
+                    > <div class="count"><p>2</p></div><i class="fas fa-plus-circle"></i>
+                    </p>
+                </section>
+                <footer>
+                    <button class="btn action-btn add-wishlist-btn flex-row">Move to Wishlist</button>
+                </footer>
+                <footer>
+                    <button class="btn action-btn add-cart-btn  flex-row">Remove from Cart</button>
+                </footer>
+                </div>
+            </div>
+           
+          <!--Vertical card-->
+
+           <div class="cart-vertical flex-col">
+                <p class="bigger-cart-text">
+                    <strong>Price Details</strong>
+                </p>
+              <hr class="horizontal-line">
+              <div class="calculate flex-row">
+                  <p>Price (2 items)</p>
+                  <p>Rs. 4000</p>
+              </div>
+              <div class="calculate flex-row">
+                <p>Discount</p>
+                <p>-Rs. 1202</p>
+               </div>
+            <div class="calculate flex-row">
+                <p>Delivery Charges</p>
+                <p>Rs. 100</p>
+            </div>
+            <hr class="horizontal-line">
+            <p class="bigger-cart-text calculate flex-row">
+                <strong>Total Amount</strong>
+                <strong>Rs. 2898</strong>
+            </p>
+            <hr class="horizontal-line">
+            <p>You will save Rs. 1202 on this order</p>
+            <button class="btn cart-button flex-row">Place Order</button>
+           </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

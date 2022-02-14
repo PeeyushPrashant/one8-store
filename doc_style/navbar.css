@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-between;
   height: 7rem;
-
+  position: sticky;
+  top: 0;
   border-bottom: 0.2rem solid #eee;
   border-radius: 0 1rem 0.4rem rgb(126, 126, 126);
 }

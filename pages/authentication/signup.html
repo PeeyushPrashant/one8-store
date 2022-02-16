@@ -10,7 +10,7 @@
     ></script>
     <link rel="stylesheet" href="/doc_style/navbar.css" />
     <link rel="stylesheet" href="/styles.css" />
-    <title>Login</title>
+    <title>SignUp</title>
   </head>
   <body>
     <div>
@@ -36,14 +36,38 @@
       <main class="main">
         <div class="auth-container flex-row">
           <div class="auth-card flex-col">
-            <h1 class="auth-heading">Login</h1>
-            <p>Please enter your valid email and password.</p>
+            <h1 class="auth-heading">Sign Up</h1>
+            <p>
+              Fill below form to sign up and enjoy special offers in one8 store
+            </p>
+            <div class="auth-input flex-row">
+              <label for="" class="input-label"
+                ><strong>First Name</strong></label
+              >
+              <input
+                type="text"
+                class="input-feild"
+                placeholder="Enter your first name"
+                required
+              />
+            </div>
+            <div class="auth-input flex-row">
+              <label for="" class="input-label"
+                ><strong>Last Name</strong></label
+              >
+              <input
+                type="text"
+                class="input-feild"
+                placeholder="Enter your last name"
+                required
+              />
+            </div>
             <div class="auth-input flex-row">
               <label for="" class="input-label"><strong>Email</strong></label>
               <input
                 type="text"
                 class="input-feild"
-                placeholder="Enter your email here"
+                placeholder="one8@gmail.com"
                 required
               />
             </div>
@@ -54,14 +78,16 @@
               <input
                 type="password"
                 class="input-feild"
-                placeholder="Enter your password"
+                placeholder="Enter your new password"
                 required
               />
             </div>
-            <button class="btn cart-btn">Login</button>
+            <button class="btn cart-btn">Register</button>
             <div>
               <a href="" class="auth-footer flex-row"
-                >Create new account<i class="fas fa-angle-right icon-md"></i
+                >Already have an account<i
+                  class="fas fa-angle-right icon-md"
+                ></i
               ></a>
             </div>
           </div>

@@ -9,11 +9,13 @@
   border-radius: 0 1rem 0.4rem rgb(126, 126, 126);
 }
 .nav-heading {
-  margin: 0 auto 0 1rem;
-  font-weight: 700;
+  align-items: center;
+}
+.nav-logo {
+  height: 5rem;
 }
 .nav-heading-small {
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: var(--primary);
 }
 .nav-search {

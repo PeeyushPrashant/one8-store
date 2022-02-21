@@ -23,7 +23,7 @@
 }
 .input-label:after {
   content: "*";
-  color: #cf000f;
+  color: var(--red);
 }
 .input-feild {
   height: 3rem;
@@ -40,4 +40,11 @@
   padding: 2rem 0;
   font-size: 1.6rem;
   align-items: center;
+}
+
+.logout-card {
+  padding: 3rem 1rem;
+}
+.logout {
+  color: var(--secondary);
 }

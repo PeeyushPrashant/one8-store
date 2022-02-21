@@ -2,7 +2,7 @@
 
 .main {
   margin: 4rem 0 0 0;
-  gap: 3rem;
+  /* gap: 5rem; */
 }
 
 /*Aside*/
@@ -11,6 +11,9 @@
   flex-basis: 25rem;
   padding: 0 3rem;
   gap: 1.3rem;
+  position: sticky;
+  height: 100%;
+  top: 11.5rem;
 }
 .sub-section {
   align-items: center;
@@ -19,8 +22,12 @@
 .heading {
   margin: 0;
 }
+.price-range {
+  width: 90%;
+  justify-content: space-between;
+}
 .range {
-  width: 50%;
+  width: 90%;
 }
 .list {
   list-style: none;
@@ -36,13 +43,14 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   gap: 5rem;
-  margin: auto;
+  margin: 0 auto 3rem;
+  padding: 0 3rem 1rem;
 }
 
 /*Cards*/
 .card {
-  width: 20rem;
-  box-shadow: 0 0.2rem 0.3rem 0 var(--card-title-color);
+  width: 25rem;
+  box-shadow: 0 0 0.6rem 0 var(--card-shadow);
 }
 
 .sec-2 {
@@ -57,7 +65,7 @@
 .cart-button {
   width: 95%;
   background-color: var(--secondary);
-  margin: 0.5rem auto 0.2rem;
+  margin: 0.5rem auto 0.5rem;
   justify-content: center;
 }
 

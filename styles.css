@@ -7,5 +7,6 @@
 
 :root {
   --grey-medium: #adb5bd;
-  --white: whitesmoke;
+  --white: white;
+  --card-shadow: #adb5bd;
 }

@@ -16,19 +16,37 @@
     <div>
       <!--Navigation-->
       <nav class="navbar flex-row">
-        <a href="">
-          <h1 class="nav-heading">
-            one8<small class="nav-heading-small">Store</small>
-          </h1>
+        <a href="/index.html">
+          <div class="nav-heading flex-row">
+            <img
+              src="/asset/image/one8-logo.png"
+              alt="one8 logo"
+              class="nav-logo"
+            />
+            <small class="nav-heading-small">Store</small>
+          </div>
         </a>
         <div class="nav-search flex-row">
           <i class="fas fa-search search-icon"></i>
           <input type="text" class="nav-input" placeholder="Type to search" />
         </div>
 
-        <div>
-          <a href=""><i class="fas fa-heart icon-md nav-icon"></i></a>
-          <a href=""><i class="fas fa-shopping-cart icon-md nav-icon"></i></a>
+        <div class="saved-item-container flex-row">
+          <a href=""
+            ><button class="btn btn-primary btn-login">Login</button></a
+          >
+          <div class="saved-item flex-row">
+            <a href="/pages/wishlist/wishlist.html"
+              ><i class="fas fa-heart icon-md nav-icon"></i>
+            </a>
+            <span class="no-badge">1</span>
+          </div>
+          <div class="saved-item flex-row">
+            <a href="/pages/cart_management/cart.html"
+              ><i class="fas fa-shopping-cart icon-md nav-icon"></i
+            ></a>
+            <span class="no-badge">3</span>
+          </div>
         </div>
       </nav>
 
@@ -60,7 +78,9 @@
             </div>
             <button class="btn cart-btn">Login</button>
             <div>
-              <a href="" class="auth-footer flex-row"
+              <a
+                href="/pages/authentication/signup.html"
+                class="auth-footer flex-row"
                 >Create new account<i class="fas fa-angle-right icon-md"></i
               ></a>
             </div>

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/doc_style/navbar.css" />
     <link rel="stylesheet" href="/doc_style/homepage.css" />
     <link rel="stylesheet" href="/styles.css" />
-    <title>HomePage</title>
+    <title>one8 | Home</title>
   </head>
   <body>
     <div>
@@ -32,9 +32,22 @@
           <input type="text" class="nav-input" placeholder="Type to search" />
         </div>
 
-        <div>
-          <a href=""><i class="fas fa-heart icon-md nav-icon"></i></a>
-          <a href=""><i class="fas fa-shopping-cart icon-md nav-icon"></i></a>
+        <div class="saved-item-container flex-row">
+          <a href="/pages/authentication/login.html"
+            ><button class="btn btn-primary btn-login">Login</button></a
+          >
+          <div class="saved-item flex-row">
+            <a href="/pages/wishlist/wishlist.html"
+              ><i class="fas fa-heart icon-md nav-icon"></i>
+            </a>
+            <span class="no-badge">1</span>
+          </div>
+          <div class="saved-item flex-row">
+            <a href="/pages/cart_management/cart.html"
+              ><i class="fas fa-shopping-cart icon-md nav-icon"></i
+            ></a>
+            <span class="no-badge">3</span>
+          </div>
         </div>
       </nav>
 
@@ -48,8 +61,10 @@
           />
           <section class="main-text absolute flex-col">
             <h1 class="main-text-normal">The One8 Affair</h1>
-            <h1 class="main-text-highlight">Get Ready Get Better</h1>
-            <button class="btn shop-btn">Shop Now</button>
+            <h1 class="main-text-normal">Get Ready Get Better</h1>
+            <a href="/pages/productList/productlist.html"
+              ><button class="btn btn-primary">Shop Now</button></a
+            >
           </section>
         </div>
         <h1 class="sub-head">Featured Brands in one8 store</h1>

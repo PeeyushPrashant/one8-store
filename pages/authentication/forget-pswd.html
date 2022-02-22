@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b84d0d614d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/doc_style/navbar.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div>
+      <!--Navigation-->
+      <nav class="navbar flex-row">
+        <a href="/index.html">
+          <div class="nav-heading flex-row">
+            <img
+              src="/asset/image/one8-logo.png"
+              alt="one8 logo"
+              class="nav-logo"
+            />
+            <small class="nav-heading-small">Store</small>
+          </div>
+        </a>
+        <div class="nav-search flex-row">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" class="nav-input" placeholder="Type to search" />
+        </div>
+
+        <div class="saved-item-container flex-row">
+          <a href=""
+            ><button class="btn btn-primary btn-login">Login</button></a
+          >
+          <div class="saved-item flex-row">
+            <a href="/pages/wishlist/wishlist.html"
+              ><i class="fas fa-heart icon-md nav-icon"></i>
+            </a>
+            <span class="no-badge">1</span>
+          </div>
+          <div class="saved-item flex-row">
+            <a href="/pages/cart_management/cart.html"
+              ><i class="fas fa-shopping-cart icon-md nav-icon"></i
+            ></a>
+            <span class="no-badge">3</span>
+          </div>
+        </div>
+      </nav>
+
+      <!--Sign-Up-->
+      <main class="main">
+        <div class="auth-container flex-row">
+          <div class="auth-card flex-col">
+            <h1 class="auth-heading">Forgot Password?</h1>
+
+            <div class="auth-subhead">
+              Don't worry it happens. Enter the email address associated with
+              your account.
+            </div>
+            <div class="auth-input flex-row">
+              <label for="" class="input-label"><strong>Email</strong></label>
+              <input
+                type="text"
+                class="input-feild"
+                placeholder="Enter your email here"
+                required
+              />
+            </div>
+            <button class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

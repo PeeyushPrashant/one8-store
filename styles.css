@@ -4,6 +4,7 @@
 @import url("/pages/authentication/auth.css");
 @import url("/pages/cart_management/cart.css");
 @import url("/pages/wishlist/wishlist.css");
+@import url("/pages/checkout/checkout.css");
 
 :root {
   --grey-medium: #adb5bd;

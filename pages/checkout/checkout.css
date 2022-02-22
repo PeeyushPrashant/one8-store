@@ -1,0 +1,12 @@
+.coupon-container {
+  justify-content: space-between;
+}
+.coupon-input {
+  border-radius: 0.5rem;
+  border: 0.2rem solid var(--grey-medium);
+  height: 2.5rem;
+}
+.coupon-icon {
+  left: 15rem;
+  top: 1rem;
+}

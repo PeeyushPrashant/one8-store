@@ -28,3 +28,7 @@ one8-store is an e-commerce web app where you can easily find sneakers of top br
 ### Demo - 
 
 
+https://user-images.githubusercontent.com/68290209/155206778-1415d2f8-1f0a-48c9-9235-5b2a63f61faf.mp4
+
+
+

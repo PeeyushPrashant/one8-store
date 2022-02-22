@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b84d0d614d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/doc_style/navbar.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <div>
+      <!--Navigation-->
+      <nav class="navbar flex-row">
+        <a href="/index.html">
+          <div class="nav-heading flex-row">
+            <img
+              src="/asset/image/one8-logo.png"
+              alt="one8 logo"
+              class="nav-logo"
+            />
+            <small class="nav-heading-small">Store</small>
+          </div>
+        </a>
+        <div class="nav-search flex-row">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" class="nav-input" placeholder="Type to search" />
+        </div>
+
+        <div class="saved-item-container flex-row">
+          <a href="/pages/authentication/login.html"
+            ><button class="btn btn-primary btn-login">Login</button></a
+          >
+          <div class="saved-item flex-row">
+            <a href="/pages/wishlist/wishlist.html"
+              ><i class="fas fa-heart icon-md nav-icon"></i>
+            </a>
+            <span class="no-badge">1</span>
+          </div>
+          <div class="saved-item flex-row">
+            <a href=""><i class="fas fa-shopping-cart icon-md nav-icon"></i></a>
+            <span class="no-badge">3</span>
+          </div>
+        </div>
+      </nav>
+
+      <!--Main-->
+
+      <main class="main">
+        <h2 class="cart-heading">Checkout</h2>
+        <div class="cart flex-row">
+          <!--Vertical card-->
+
+          <div class="cart-vertical flex-col">
+            <p class="bigger-cart-text">
+              <strong>Price Details</strong>
+            </p>
+            <hr class="horizontal-line" />
+            <div class="calculate flex-row">
+              <p>Price (2 items)</p>
+              <p>Rs. 4000</p>
+            </div>
+            <div class="coupon-container flex-row">
+              <p>Coupon</p>
+              <div class="relative">
+                <input
+                  type="text"
+                  placeholder="Coupon code"
+                  class="coupon-input"
+                /><i
+                  class="fas fa-tag absolute coupon-icon"
+                  aria-hidden="true"
+                ></i>
+              </div>
+            </div>
+            <div class="calculate flex-row">
+              <p>Discount</p>
+              <p>-Rs. 1202</p>
+            </div>
+            <div class="calculate flex-row">
+              <p>Delivery Charges</p>
+              <p>Rs. 100</p>
+            </div>
+            <hr class="horizontal-line" />
+            <p class="bigger-cart-text calculate flex-row">
+              <strong>Total Amount</strong>
+              <strong>Rs. 2898</strong>
+            </p>
+            <hr class="horizontal-line" />
+            <p>You will save Rs. 1202 on this order</p>
+            <button class="btn cart-button flex-row">Place Order</button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
